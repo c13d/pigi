@@ -1,0 +1,744 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1978E74028056358001011E2 /* LessonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1978E73F28056358001011E2 /* LessonViewController.swift */; };
+		1978E742280568B1001011E2 /* LessonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1978E741280568B1001011E2 /* LessonCollectionViewCell.swift */; };
+		7C37A92428067C95008D02DD /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C37A92328067C95008D02DD /* Result.swift */; };
+		7C8F915B28079FC00011CB6B /* LessonMiniPracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8F915A28079FC00011CB6B /* LessonMiniPracticeViewController.swift */; };
+		7CC487E92802C4C3003AFB7A /* PracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC487E82802C4C3003AFB7A /* PracticeViewController.swift */; };
+		7CC487EB28033684003AFB7A /* PracticeSetTimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC487EA28033684003AFB7A /* PracticeSetTimerViewController.swift */; };
+		7CC487EE28035185003AFB7A /* VideoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC487ED28035185003AFB7A /* VideoHelper.swift */; };
+		7CC9B428280557DC00550E3D /* PracticeRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC9B427280557DC00550E3D /* PracticeRecordViewController.swift */; };
+		7CC9B42A28056EC100550E3D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7CC9B42928056EC100550E3D /* Info.plist */; };
+		7CC9B42C28056ECE00550E3D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7CC9B42B28056ECE00550E3D /* Info.plist */; };
+		7CEEA22E27F991580028CAF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEEA22D27F991580028CAF8 /* AppDelegate.swift */; };
+		7CEEA23027F991580028CAF8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEEA22F27F991580028CAF8 /* SceneDelegate.swift */; };
+		7CEEA23227F991580028CAF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEEA23127F991580028CAF8 /* ViewController.swift */; };
+		7CEEA23527F991580028CAF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CEEA23327F991580028CAF8 /* Main.storyboard */; };
+		7CEEA23827F991580028CAF8 /* Pigi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7CEEA23627F991580028CAF8 /* Pigi.xcdatamodeld */; };
+		7CEEA23A27F991590028CAF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CEEA23927F991590028CAF8 /* Assets.xcassets */; };
+		7CEEA23D27F991590028CAF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CEEA23B27F991590028CAF8 /* LaunchScreen.storyboard */; };
+		7CEEA24827F991590028CAF8 /* PigiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEEA24727F991590028CAF8 /* PigiTests.swift */; };
+		7CEEA25227F991590028CAF8 /* PigiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEEA25127F991590028CAF8 /* PigiUITests.swift */; };
+		7CEEA25427F991590028CAF8 /* PigiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEEA25327F991590028CAF8 /* PigiUITestsLaunchTests.swift */; };
+		7CF5FD682805D56000A8953C /* PracticeResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF5FD672805D56000A8953C /* PracticeResultViewController.swift */; };
+		F056CA5F2805C14600A52842 /* LessonResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F056CA5E2805C14600A52842 /* LessonResultViewController.swift */; };
+		F08D1246280406F900CC2A35 /* StepModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08D1245280406F900CC2A35 /* StepModel.swift */; };
+		F08D12482804078400CC2A35 /* StepCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08D12472804078400CC2A35 /* StepCell.swift */; };
+		F08D124C28040FBC00CC2A35 /* TableViewDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08D124B28040FBC00CC2A35 /* TableViewDetail.swift */; };
+		F08D12572804F15300CC2A35 /* VocalDeliveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08D12562804F15300CC2A35 /* VocalDeliveryViewController.swift */; };
+		F08D12592804FAF600CC2A35 /* GuideDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08D12582804FAF600CC2A35 /* GuideDetailCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CEEA24427F991590028CAF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CEEA22227F991580028CAF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CEEA22927F991580028CAF8;
+			remoteInfo = Pigi;
+		};
+		7CEEA24E27F991590028CAF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CEEA22227F991580028CAF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CEEA22927F991580028CAF8;
+			remoteInfo = Pigi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1978E73F28056358001011E2 /* LessonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonViewController.swift; sourceTree = SOURCE_ROOT; };
+		1978E741280568B1001011E2 /* LessonCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonCollectionViewCell.swift; sourceTree = SOURCE_ROOT; };
+		7C37A92328067C95008D02DD /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		7C8F915A28079FC00011CB6B /* LessonMiniPracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonMiniPracticeViewController.swift; sourceTree = "<group>"; };
+		7CC487E82802C4C3003AFB7A /* PracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewController.swift; sourceTree = "<group>"; };
+		7CC487EA28033684003AFB7A /* PracticeSetTimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeSetTimerViewController.swift; sourceTree = "<group>"; };
+		7CC487ED28035185003AFB7A /* VideoHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoHelper.swift; sourceTree = "<group>"; };
+		7CC9B427280557DC00550E3D /* PracticeRecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeRecordViewController.swift; sourceTree = "<group>"; };
+		7CC9B42928056EC100550E3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CC9B42B28056ECE00550E3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CEEA22A27F991580028CAF8 /* Pigi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pigi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CEEA22D27F991580028CAF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7CEEA22F27F991580028CAF8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7CEEA23127F991580028CAF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7CEEA23427F991580028CAF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CEEA23727F991580028CAF8 /* Pigi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pigi.xcdatamodel; sourceTree = "<group>"; };
+		7CEEA23927F991590028CAF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CEEA23C27F991590028CAF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7CEEA23E27F991590028CAF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CEEA24327F991590028CAF8 /* PigiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PigiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CEEA24727F991590028CAF8 /* PigiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PigiTests.swift; sourceTree = "<group>"; };
+		7CEEA24D27F991590028CAF8 /* PigiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PigiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CEEA25127F991590028CAF8 /* PigiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PigiUITests.swift; sourceTree = "<group>"; };
+		7CEEA25327F991590028CAF8 /* PigiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PigiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7CF5FD672805D56000A8953C /* PracticeResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeResultViewController.swift; sourceTree = "<group>"; };
+		F056CA5E2805C14600A52842 /* LessonResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LessonResultViewController.swift; path = Pigi/Guide/LessonResultViewController.swift; sourceTree = SOURCE_ROOT; };
+		F08D1245280406F900CC2A35 /* StepModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepModel.swift; sourceTree = SOURCE_ROOT; };
+		F08D12472804078400CC2A35 /* StepCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StepCell.swift; path = Pigi/Guide/Pigi/Guide/VocalDelivery/StepCell.swift; sourceTree = SOURCE_ROOT; };
+		F08D124B28040FBC00CC2A35 /* TableViewDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewDetail.swift; sourceTree = SOURCE_ROOT; };
+		F08D12562804F15300CC2A35 /* VocalDeliveryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocalDeliveryViewController.swift; sourceTree = SOURCE_ROOT; };
+		F08D12582804FAF600CC2A35 /* GuideDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideDetailCell.swift; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CEEA22727F991580028CAF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CEEA24027F991590028CAF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CEEA24A27F991590028CAF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C37A92528067CF9008D02DD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7C37A92328067C95008D02DD /* Result.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		7C4DD75328072EFD00B4B281 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7CC487E82802C4C3003AFB7A /* PracticeViewController.swift */,
+				7CC487EA28033684003AFB7A /* PracticeSetTimerViewController.swift */,
+				7CC9B427280557DC00550E3D /* PracticeRecordViewController.swift */,
+				7CF5FD672805D56000A8953C /* PracticeResultViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		7C691E6628008AA500D37A15 /* Guide */ = {
+			isa = PBXGroup;
+			children = (
+				F08D12502804F03C00CC2A35 /* VocalDelivery */,
+				F08D1245280406F900CC2A35 /* StepModel.swift */,
+				F08D124B28040FBC00CC2A35 /* TableViewDetail.swift */,
+				1978E73F28056358001011E2 /* LessonViewController.swift */,
+				1978E741280568B1001011E2 /* LessonCollectionViewCell.swift */,
+				7C8F915A28079FC00011CB6B /* LessonMiniPracticeViewController.swift */,
+				F056CA5E2805C14600A52842 /* LessonResultViewController.swift */,
+			);
+			path = Guide;
+			sourceTree = "<group>";
+		};
+		7CC487E72802C4A0003AFB7A /* Practice */ = {
+			isa = PBXGroup;
+			children = (
+				7C4DD75328072EFD00B4B281 /* Controller */,
+				7C37A92528067CF9008D02DD /* Model */,
+			);
+			name = Practice;
+			sourceTree = "<group>";
+		};
+		7CC487EC28035164003AFB7A /* Extension File */ = {
+			isa = PBXGroup;
+			children = (
+				7CC487ED28035185003AFB7A /* VideoHelper.swift */,
+			);
+			path = "Extension File";
+			sourceTree = "<group>";
+		};
+		7CEEA22127F991580028CAF8 = {
+			isa = PBXGroup;
+			children = (
+				7CEEA22C27F991580028CAF8 /* Pigi */,
+				7CEEA24627F991590028CAF8 /* PigiTests */,
+				7CEEA25027F991590028CAF8 /* PigiUITests */,
+				7CEEA22B27F991580028CAF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CEEA22B27F991580028CAF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CEEA22A27F991580028CAF8 /* Pigi.app */,
+				7CEEA24327F991590028CAF8 /* PigiTests.xctest */,
+				7CEEA24D27F991590028CAF8 /* PigiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CEEA22C27F991580028CAF8 /* Pigi */ = {
+			isa = PBXGroup;
+			children = (
+				7C691E6628008AA500D37A15 /* Guide */,
+				7CEEA22D27F991580028CAF8 /* AppDelegate.swift */,
+				7CEEA23127F991580028CAF8 /* ViewController.swift */,
+				7CEEA22F27F991580028CAF8 /* SceneDelegate.swift */,
+				7CC487E72802C4A0003AFB7A /* Practice */,
+				7CC487EC28035164003AFB7A /* Extension File */,
+				7CEEA23327F991580028CAF8 /* Main.storyboard */,
+				7CEEA23927F991590028CAF8 /* Assets.xcassets */,
+				7CEEA23B27F991590028CAF8 /* LaunchScreen.storyboard */,
+				7CEEA23E27F991590028CAF8 /* Info.plist */,
+				7CEEA23627F991580028CAF8 /* Pigi.xcdatamodeld */,
+			);
+			path = Pigi;
+			sourceTree = "<group>";
+		};
+		7CEEA24627F991590028CAF8 /* PigiTests */ = {
+			isa = PBXGroup;
+			children = (
+				7CEEA24727F991590028CAF8 /* PigiTests.swift */,
+				7CC9B42928056EC100550E3D /* Info.plist */,
+			);
+			path = PigiTests;
+			sourceTree = "<group>";
+		};
+		7CEEA25027F991590028CAF8 /* PigiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7CEEA25127F991590028CAF8 /* PigiUITests.swift */,
+				7CEEA25327F991590028CAF8 /* PigiUITestsLaunchTests.swift */,
+				7CC9B42B28056ECE00550E3D /* Info.plist */,
+			);
+			path = PigiUITests;
+			sourceTree = "<group>";
+		};
+		F08D12502804F03C00CC2A35 /* VocalDelivery */ = {
+			isa = PBXGroup;
+			children = (
+				F08D12562804F15300CC2A35 /* VocalDeliveryViewController.swift */,
+				F08D12582804FAF600CC2A35 /* GuideDetailCell.swift */,
+				F08D12472804078400CC2A35 /* StepCell.swift */,
+			);
+			name = VocalDelivery;
+			path = Pigi/Guide/VocalDelivery;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CEEA22927F991580028CAF8 /* Pigi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CEEA25727F991590028CAF8 /* Build configuration list for PBXNativeTarget "Pigi" */;
+			buildPhases = (
+				7CEEA22627F991580028CAF8 /* Sources */,
+				7CEEA22727F991580028CAF8 /* Frameworks */,
+				7CEEA22827F991580028CAF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pigi;
+			productName = Pigi;
+			productReference = 7CEEA22A27F991580028CAF8 /* Pigi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7CEEA24227F991590028CAF8 /* PigiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CEEA25A27F991590028CAF8 /* Build configuration list for PBXNativeTarget "PigiTests" */;
+			buildPhases = (
+				7CEEA23F27F991590028CAF8 /* Sources */,
+				7CEEA24027F991590028CAF8 /* Frameworks */,
+				7CEEA24127F991590028CAF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CEEA24527F991590028CAF8 /* PBXTargetDependency */,
+			);
+			name = PigiTests;
+			productName = PigiTests;
+			productReference = 7CEEA24327F991590028CAF8 /* PigiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7CEEA24C27F991590028CAF8 /* PigiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CEEA25D27F991590028CAF8 /* Build configuration list for PBXNativeTarget "PigiUITests" */;
+			buildPhases = (
+				7CEEA24927F991590028CAF8 /* Sources */,
+				7CEEA24A27F991590028CAF8 /* Frameworks */,
+				7CEEA24B27F991590028CAF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CEEA24F27F991590028CAF8 /* PBXTargetDependency */,
+			);
+			name = PigiUITests;
+			productName = PigiUITests;
+			productReference = 7CEEA24D27F991590028CAF8 /* PigiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CEEA22227F991580028CAF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					7CEEA22927F991580028CAF8 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					7CEEA24227F991590028CAF8 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 7CEEA22927F991580028CAF8;
+					};
+					7CEEA24C27F991590028CAF8 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 7CEEA22927F991580028CAF8;
+					};
+				};
+			};
+			buildConfigurationList = 7CEEA22527F991580028CAF8 /* Build configuration list for PBXProject "Pigi" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CEEA22127F991580028CAF8;
+			productRefGroup = 7CEEA22B27F991580028CAF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CEEA22927F991580028CAF8 /* Pigi */,
+				7CEEA24227F991590028CAF8 /* PigiTests */,
+				7CEEA24C27F991590028CAF8 /* PigiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CEEA22827F991580028CAF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CEEA23D27F991590028CAF8 /* LaunchScreen.storyboard in Resources */,
+				7CEEA23A27F991590028CAF8 /* Assets.xcassets in Resources */,
+				7CEEA23527F991580028CAF8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CEEA24127F991590028CAF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CC9B42A28056EC100550E3D /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CEEA24B27F991590028CAF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CC9B42C28056ECE00550E3D /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CEEA22627F991580028CAF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CC487EB28033684003AFB7A /* PracticeSetTimerViewController.swift in Sources */,
+				7CEEA23227F991580028CAF8 /* ViewController.swift in Sources */,
+				7CF5FD682805D56000A8953C /* PracticeResultViewController.swift in Sources */,
+				7CC487EE28035185003AFB7A /* VideoHelper.swift in Sources */,
+				7CEEA22E27F991580028CAF8 /* AppDelegate.swift in Sources */,
+				7CEEA23827F991580028CAF8 /* Pigi.xcdatamodeld in Sources */,
+				7C37A92428067C95008D02DD /* Result.swift in Sources */,
+				7CC487E92802C4C3003AFB7A /* PracticeViewController.swift in Sources */,
+				7C8F915B28079FC00011CB6B /* LessonMiniPracticeViewController.swift in Sources */,
+				7CC9B428280557DC00550E3D /* PracticeRecordViewController.swift in Sources */,
+				1978E74028056358001011E2 /* LessonViewController.swift in Sources */,
+				1978E742280568B1001011E2 /* LessonCollectionViewCell.swift in Sources */,
+				F056CA5F2805C14600A52842 /* LessonResultViewController.swift in Sources */,
+				F08D124C28040FBC00CC2A35 /* TableViewDetail.swift in Sources */,
+				7CC487E92802C4C3003AFB7A /* PracticeViewController.swift in Sources */,
+				F08D12572804F15300CC2A35 /* VocalDeliveryViewController.swift in Sources */,
+				F08D12482804078400CC2A35 /* StepCell.swift in Sources */,
+				F08D12592804FAF600CC2A35 /* GuideDetailCell.swift in Sources */,
+				7CEEA23027F991580028CAF8 /* SceneDelegate.swift in Sources */,
+				F08D1246280406F900CC2A35 /* StepModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CEEA23F27F991590028CAF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CEEA24827F991590028CAF8 /* PigiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CEEA24927F991590028CAF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CEEA25227F991590028CAF8 /* PigiUITests.swift in Sources */,
+				7CEEA25427F991590028CAF8 /* PigiUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CEEA24527F991590028CAF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CEEA22927F991580028CAF8 /* Pigi */;
+			targetProxy = 7CEEA24427F991590028CAF8 /* PBXContainerItemProxy */;
+		};
+		7CEEA24F27F991590028CAF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CEEA22927F991580028CAF8 /* Pigi */;
+			targetProxy = 7CEEA24E27F991590028CAF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7CEEA23327F991580028CAF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CEEA23427F991580028CAF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7CEEA23B27F991590028CAF8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CEEA23C27F991590028CAF8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CEEA25527F991590028CAF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7CEEA25627F991590028CAF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CEEA25827F991590028CAF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9FTW8UD8K7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Pigi/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stranger.Pigi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7CEEA25927F991590028CAF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9FTW8UD8K7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Pigi/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stranger.Pigi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7CEEA25B27F991590028CAF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9FTW8UD8K7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stranger.PigiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pigi.app/Pigi";
+			};
+			name = Debug;
+		};
+		7CEEA25C27F991590028CAF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9FTW8UD8K7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stranger.PigiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pigi.app/Pigi";
+			};
+			name = Release;
+		};
+		7CEEA25E27F991590028CAF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9FTW8UD8K7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stranger.PigiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pigi;
+			};
+			name = Debug;
+		};
+		7CEEA25F27F991590028CAF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9FTW8UD8K7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stranger.PigiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pigi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CEEA22527F991580028CAF8 /* Build configuration list for PBXProject "Pigi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CEEA25527F991590028CAF8 /* Debug */,
+				7CEEA25627F991590028CAF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CEEA25727F991590028CAF8 /* Build configuration list for PBXNativeTarget "Pigi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CEEA25827F991590028CAF8 /* Debug */,
+				7CEEA25927F991590028CAF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CEEA25A27F991590028CAF8 /* Build configuration list for PBXNativeTarget "PigiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CEEA25B27F991590028CAF8 /* Debug */,
+				7CEEA25C27F991590028CAF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CEEA25D27F991590028CAF8 /* Build configuration list for PBXNativeTarget "PigiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CEEA25E27F991590028CAF8 /* Debug */,
+				7CEEA25F27F991590028CAF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7CEEA23627F991580028CAF8 /* Pigi.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7CEEA23727F991580028CAF8 /* Pigi.xcdatamodel */,
+			);
+			currentVersion = 7CEEA23727F991580028CAF8 /* Pigi.xcdatamodel */;
+			path = Pigi.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7CEEA22227F991580028CAF8 /* Project object */;
+}
